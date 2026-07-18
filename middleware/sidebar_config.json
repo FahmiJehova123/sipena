@@ -1,0 +1,263 @@
+[
+    {
+        "icon": "fas fa-tachometer-alt",
+        "label": "Dashboard",
+        "link": "dashboard_guru",
+        "roles": [
+            "teacher"
+        ],
+        "children": [],
+        "condition": {
+            "class_type": "diniyyah",
+            "grade_level": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14,
+                15,
+                16,
+                17,
+                18,
+                19,
+                20
+            ]
+        }
+    },
+    {
+        "icon": "fas fa-tachometer-alt",
+        "label": "Dashboard",
+        "link": "dashboard_siswa",
+        "roles": [
+            "student"
+        ],
+        "children": [],
+        "condition": {
+            "class_type": "diniyyah",
+            "grade_level": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14,
+                15,
+                16,
+                17,
+                18,
+                19,
+                20
+            ]
+        }
+    },
+    {
+        "icon": "fas fa-users",
+        "label": "Siswa",
+        "link": "dashboard_guru.php#siswa",
+        "roles": [
+            "."
+        ],
+        "children": []
+    },
+    {
+        "icon": "fas fa-id-card",
+        "label": "ID Card",
+        "link": "id_card_guru",
+        "roles": [
+            "teacher"
+        ],
+        "children": []
+    },
+    {
+        "icon": "fas fa-qrcode",
+        "label": "Absensi QR",
+        "link": "kiosk_scanner",
+        "roles": [
+            "teacher"
+        ],
+        "children": []
+    },
+    {
+        "icon": "fa-solid fa-headphones",
+        "label": "Audio Player",
+        "link": "audio_player_guru",
+        "roles": [
+            "teacher"
+        ],
+        "children": []
+    },
+    {
+        "icon": "fas fa-id-card",
+        "label": "ID Card",
+        "link": "id_card",
+        "roles": [
+            "student"
+        ],
+        "children": []
+    },
+    {
+        "icon": "fa-solid fa-user-graduate",
+        "label": "Detail Siswa",
+        "link": "student_detail_guru",
+        "roles": [
+            "teacher"
+        ],
+        "children": []
+    },
+    {
+        "icon": "fas fa-chart-line",
+        "label": "Laporan Absensi",
+        "link": "reports_guru",
+        "roles": [
+            "teacher"
+        ],
+        "children": []
+    },
+    {
+        "icon": "fas fa-file-alt",
+        "label": "Manajemen Soal",
+        "link": "manage_soal",
+        "roles": [
+            "teacher"
+        ],
+        "children": []
+    },
+    {
+        "icon": "fas fa-calendar-alt",
+        "label": "Manajemen Jadwal",
+        "link": "manage_schedule_guru",
+        "roles": [
+            "teacher"
+        ],
+        "children": []
+    },
+    {
+        "icon": "fa-solid fa-map-location-dot",
+        "label": "Lokasi Kelas",
+        "link": "class_map",
+        "roles": [
+            "teacher"
+        ],
+        "children": []
+    },
+    {
+        "icon": "fas fa-chart-line",
+        "label": "Hasil Absensi",
+        "link": "student_attendance_report",
+        "roles": [
+            "student"
+        ],
+        "children": []
+    },
+    {
+        "icon": "fas fa-history",
+        "label": "Riwayat",
+        "link": "dashboard_siswa.php#riwayat",
+        "roles": [
+            "student"
+        ],
+        "children": []
+    },
+    {
+        "icon": "fas fa-chalkboard-user",
+        "label": "Kelola Nilai & Ijazah",
+        "link": "#",
+        "roles": [
+            "teacher"
+        ],
+        "children": [
+            {
+                "icon": "fa-solid fa-table-list",
+                "label": "Nilai Ujian",
+                "link": "manage_exam_scores.php?school_type=pagi",
+                "roles": [
+                    "teacher"
+                ]
+            },
+            {
+                "icon": "fa-solid fa-file-contract",
+                "label": "Nilai Ijazah",
+                "link": "manage_diploma_scores",
+                "roles": [
+                    "teacher"
+                ],
+                "condition": {
+                    "class_type": "diniyyah",
+                    "grade_level": [
+                        3,
+                        6
+                    ]
+                }
+            },
+            {
+                "icon": "fa-solid fa-file-lines",
+                "label": "Leger Ujian",
+                "link": "manage_leger_ujian",
+                "roles": [
+                    "teacher"
+                ]
+            }
+        ],
+        "condition": null
+    },
+    {
+        "icon": "fas fa-id-card",
+        "label": "Nilai Ujian",
+        "link": "student_scores.php",
+        "roles": [
+            "student"
+        ],
+        "children": []
+    },
+    {
+        "icon": "fas fa-user",
+        "label": "Profil",
+        "link": "profile",
+        "roles": [
+            "teacher"
+        ],
+        "children": []
+    },
+    {
+        "icon": "fa-solid fa-file-contract",
+        "label": "Nilai Ijazah",
+        "link": "diploma_student_scores.php",
+        "roles": [
+            "student"
+        ],
+        "children": [],
+        "condition": {
+            "class_type": "diniyyah",
+            "grade_level": [
+                3,
+                6
+            ]
+        }
+    },
+    {
+        "icon": "fas fa-user",
+        "label": "Profil",
+        "link": "profile.php",
+        "roles": [
+            "student"
+        ],
+        "children": []
+    }
+]
