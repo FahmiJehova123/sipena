@@ -4,10 +4,10 @@ define('SUPABASE_URL', 'https://mksnmsxorljdqubuywrg.supabase.co');
 date_default_timezone_set('Asia/Jakarta');
 
 // GANTI DENGAN ANON KEY ASLI (dari dashboard Supabase -> Settings -> API -> anon public)
-define('SUPABASE_ANON_KEY', 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Im1rc25tc3hvcmxqZHF1YnV5d3JnIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzU5MTM5ODcsImV4cCI6MjA5MTQ4OTk4N30.RnpoW5n8BEs5wnxJcIC0T_ylpRU_gzaVnxKQJlpJG9A');
+define('SUPABASE_ANON_KEY', '');
 
 // SERVICE ROLE KEY (RAHASIA, hanya untuk backend)
-define('SUPABASE_SERVICE_KEY', 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Im1rc25tc3hvcmxqZHF1YnV5d3JnIiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTc3NTkxMzk4NywiZXhwIjoyMDkxNDg5OTg3fQ.QtsozY_23_yg4N3P0aEUcNUPtqrcdcAGEDL0LIgrVmg');
+define('SUPABASE_SERVICE_KEY', '');
 
 // ========== FUNGSI REQUEST DENGAN ANON KEY (untuk frontend / realtime) ==========
 function supabase_request($method, $table, $data = null, $params = []) {
